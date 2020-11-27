@@ -1,0 +1,31 @@
+1. Connect gg drive
+```python
+from google.colab import drive
+drive.mount('/content/gdrive')
+```
+- Cài đặc anaconda:
+- cài đặc JupyterNotebook
+
+2.Python cơ bản 
+ex: ''.join(['a','b','c'])
+2.1. List
+- gần giống như array
+ex[-1] lấy phần tử cuối cùng
+.pop(): bỏ đi phần tử cuối cùng
+.append(): thêm phần tử vào
+[:-1]: lấy phần tử đầu đến phần tử gần cuối
+arr
+for i in arr : duyệt phần tử không cần chỉ số
+#duyệt phần tử kèm theo chỉ số 
+for idx, animal in enumerate(animals):
+	print('#%d: %s' % (idx + 1, animal))
+
+2.2. Dictionaries
+del () : xóa phần tư
+for animal in d: duyệt qua các key
+for legs in d.values(): duyệt qua các value
+for animal, legs in d.items(): duyệt qua cả key và value
+
+2.3. Thư viện
+- numpy
+ 
